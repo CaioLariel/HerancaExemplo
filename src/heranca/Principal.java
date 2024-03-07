@@ -15,15 +15,20 @@ public class Principal {
         a1.curso = "Bacharelado e Artes Marciais";
         a1.dataMatricula = "02/02/2022";
         
-        p1.nome = "Caio Gabriel";
-        p1.rg = "36.456.789-x";
-        p1.cpf = "456.123.789-89";
+        p1.nome = "João neto";
+        p1.rg = "28.123.345-x";
+        p1.cpf = "654.223.112-78";
         p1.matriculaProfessor = 300468;
         p1.dataAdmissao = "10/10/2019";
         p1.salarioHorista = 70.99;
         
         System.out.println("\t - Dados do Aluno RA nº: " + a1.registroAluno + "-\n");
-        System.out.println(a1.retornaDados());
+        System.out.println(a1.retornaDadosAluno());
+        
+        System.out.println("-----------------------------------------------------");
+        
+        System.out.println("\t - Dados do Professor matricula nº: " + p1.matriculaProfessor + "-\n");
+        System.out.println(p1.retornaDadosProfessor());
     }
          
 }
