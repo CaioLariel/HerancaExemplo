@@ -10,7 +10,7 @@ public class Principal {
         a1.nome = "Caio Gabriel";
         a1.rg = "36.456.789-x";
         a1.cpf = "456.123.789-89";
-        a1.registraAluno = 987987987;
+        a1.registroAluno = 987987987;
         a1.notaVestibular = 7.5f;
         a1.curso = "Bacharelado e Artes Marciais";
         a1.dataMatricula = "02/02/2022";
@@ -21,5 +21,9 @@ public class Principal {
         p1.matriculaProfessor = 300468;
         p1.dataAdmissao = "10/10/2019";
         p1.salarioHorista = 70.99;
+        
+        System.out.println("\t - Dados do Aluno RA nº: " + a1.registroAluno + "-\n");
+        System.out.println(a1.retornaDados());
     }
+         
 }
